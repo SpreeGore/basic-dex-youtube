@@ -6,8 +6,8 @@ import SwapInput from "../components/SwapInput";
 
 const Home: NextPage = () => {
   // Contracts for the DEX and the token
-  const TOKEN_CONTRACT = "<YOUR_CONTRACT>";
-  const DEX_CONTRACT = "<YOUR_CONTRACT>";
+  const TOKEN_CONTRACT = "0xf2B858d57aC16b119Ca3653Baf740ad8e0d349Eb";
+  const DEX_CONTRACT = "0x0F56B1B576D2Ae5069B48824c88259e11C3F1F29";
 
   // SDK instance
   const sdk = useSDK();
