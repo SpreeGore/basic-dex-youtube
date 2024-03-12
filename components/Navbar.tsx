@@ -9,7 +9,7 @@ export default function Navbar() {
             justifyContent: "space-between",
             margin: "10px",
         }}>
-            <h1>DEX Tester</h1>
+            <h1>Shadow Dex</h1>
             <ConnectWallet/>
         </div>
     )
