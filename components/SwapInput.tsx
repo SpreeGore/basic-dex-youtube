@@ -23,7 +23,7 @@ export default function SwapInput({
     const truncate = (value: string) => {
         if (value === undefined) return;
         if (value.length > 5) {
-            return value.slice(0, 5);
+            return value.slice(0, 10);
         }
         return value;
     };
